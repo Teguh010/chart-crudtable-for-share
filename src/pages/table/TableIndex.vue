@@ -11,7 +11,7 @@
         <q-dialog v-model="show_dialog">
         <q-card >
           <q-card-section>
-            <div class="text-h6">Tambah User Baru!!</div>
+            <div class="text-h6">{{ formTitle }}</div>
           </q-card-section>
 
           <q-card-section class="q-gutter-sm ">
