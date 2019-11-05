@@ -31,6 +31,11 @@ export default {
       }, 300)
     }
   },
+  computed: {
+    formTitle () {
+      return this.editedIndex === -1 ? 'Tambah Data' : 'Edit Data'
+    },
+  },
   data() {
     return {
       options: stringOptions,
